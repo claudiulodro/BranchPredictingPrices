@@ -1,5 +1,6 @@
-package application;
+package application.test;
 
+import application.StateMachineNode;
 import junit.framework.TestCase;
 
 public class StateMachineNodeTests extends TestCase {

@@ -1,5 +1,9 @@
-package application;
+package application.test;
 
+import application.BinaryPredictor;
+import application.SixNodeSoftPredictor;
+import application.StandardHardPredictor;
+import application.StandardSoftPredictor;
 import junit.framework.TestCase;
 
 public class AlgorithmTests extends TestCase {

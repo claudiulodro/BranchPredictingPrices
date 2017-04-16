@@ -15,7 +15,7 @@ public class StateMachineNode {
 	 * @param onLow - node index to go to on a price decrease
 	 * @param probablyGoingUp - if state machine is in this node, are prices going up? (true for increasing, false for decreasing)
 	 */
-	StateMachineNode( int onHigh, int onLow, boolean probablyGoingUp ){
+	public StateMachineNode( int onHigh, int onLow, boolean probablyGoingUp ){
 		this.onHigh = onHigh;
 		this.onLow = onLow;
 		this.probablyGoingUp = probablyGoingUp;
